@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appengine-web-app
+	xmlns="http://appengine.google.com/ns/1.0">
+	<threadsafe>true</threadsafe>
+	<sessions-enabled>true</sessions-enabled>
+	<runtime>java8</runtime>
+	<system-properties>
+		<property name="java.util.logging.config.file"
+			value="WEB-INF/logging.properties" />
+		<property name="drivername" value="com.mysql.jdbc.Driver" />
+		<property name="username" value="root" />
+		<property name="password" value="quan12952151" />
+		<property name="localusername" value="root" />
+		<property name="localpassword" value="quan12952151" />
+		<property name="databasename" value="vaalikone" />
+	</system-properties>
+</appengine-web-app>
